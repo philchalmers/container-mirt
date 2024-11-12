@@ -28,5 +28,6 @@ RUN echo 'install.packages(c(' >> install_packages.R && \
   echo '"modsem", "mirt", "roxygen2", "rmarkdown",' >> install_packages.R && \
   echo '"markdown", "pkgdown", "usethis", "rcmdcheck",' >> install_packages.R && \
   echo '"rversions", "urlchecker", "tinytex", "sirt", "nonnest2"' >> install_packages.R && \
+  echo '"latticeExtra", "directlabels", "Rsolnp", "nloptr", "plink", "mirtCAT"' >> install_packages.R && \
   echo '))' >> install_packages.R
 RUN Rscript install_packages.R

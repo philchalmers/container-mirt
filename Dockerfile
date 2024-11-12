@@ -1,6 +1,6 @@
 FROM rocker/r-base:latest
 
-LABEL org.opencontainers.image.source=https://github.com/kss2k/container-mirt
+LABEL org.opencontainers.image.source=https://github.com/philchalmers/container-mirt
 LABEL org.opencontainers.image.description="Container for running mirt tests and R CMD check"
 LABEL org.opencontainers.image.licenses=MIT
 

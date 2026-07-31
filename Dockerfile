@@ -20,6 +20,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libfontconfig1-dev libpango1.0-dev \
     libxml2-dev \
     libtiff-dev \
+    cmake \
+    libuv1-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install R packages from CRAN
